@@ -10,7 +10,7 @@
 	<version>0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>FxPdfToolkit</name>
+	<name>fxpdftoolkit</name>
 	<url>https://github.com/mhschmieder/fxpdftoolkit</url>
 	<description>JavaFX wrapper for pdftoolkit</description>
 
