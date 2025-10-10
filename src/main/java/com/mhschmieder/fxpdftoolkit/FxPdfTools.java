@@ -30,17 +30,16 @@
  */
 package com.mhschmieder.fxpdftoolkit;
 
-import java.awt.image.BufferedImage;
-
 import com.mhschmieder.fxgraphicstoolkit.image.ImageUtilities;
 import com.mhschmieder.pdftoolkit.PdfFonts;
 import com.mhschmieder.pdftoolkit.PdfTools;
 import com.pdfjet.Image;
 import com.pdfjet.PDF;
 import com.pdfjet.Page;
-
 import javafx.scene.Node;
 import javafx.scene.layout.Region;
+
+import java.awt.image.BufferedImage;
 
 public class FxPdfTools {
 
