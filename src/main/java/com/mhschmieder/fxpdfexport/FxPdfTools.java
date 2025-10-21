@@ -1,7 +1,7 @@
-/**
+/*
  * MIT License
  *
- * Copyright (c) 2020, 2023 Mark Schmieder
+ * Copyright (c) 2020, 2025 Mark Schmieder
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -21,14 +21,14 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  *
- * This file is part of the FxPdfToolkit Library
+ * This file is part of the FxPdfExport Library
  *
  * You should have received a copy of the MIT License along with the
- * FxPdfToolkit Library. If not, see <https://opensource.org/licenses/MIT>.
+ * FxPdfExport Library. If not, see <https://opensource.org/licenses/MIT>.
  *
- * Project: https://github.com/mhschmieder/fxpdftoolkit
+ * Project: https://github.com/mhschmieder/fxpdfexport
  */
-package com.mhschmieder.fxpdftoolkit;
+package com.mhschmieder.fxpdfexport;
 
 import com.mhschmieder.fxgraphicstoolkit.image.ImageUtilities;
 import com.mhschmieder.pdftoolkit.PdfFonts;

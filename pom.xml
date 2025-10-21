@@ -6,12 +6,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.mhschmieder</groupId>
-	<artifactId>fxpdftoolkit</artifactId>
+	<artifactId>fxpdfexport</artifactId>
 	<version>0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>fxpdftoolkit</name>
-	<url>https://github.com/mhschmieder/fxpdftoolkit</url>
+	<name>fxpdfexport</name>
+	<url>https://github.com/mhschmieder/fxpdfexport</url>
 	<description>JavaFX wrapper for pdftoolkit</description>
 
 	<licenses>
@@ -23,9 +23,9 @@
 	</licenses>
 
 	<scm>
-		<url>https://github.com/mhschmieder/fxpdftoolkit</url>
-		<connection>scm:git:git://github.com/mhschmieder/fxpdftoolkit.git</connection>
-		<developerConnection>scm:git:git@github.com:mhschmieder/fxpdftoolkit.git</developerConnection>
+		<url>https://github.com/mhschmieder/fxpdfexport</url>
+		<connection>scm:git:git://github.com/mhschmieder/fxpdfexport.git</connection>
+		<developerConnection>scm:git:git@github.com:mhschmieder/fxpdfexport.git</developerConnection>
 	</scm>
 
 	<developers>
