@@ -29,7 +29,7 @@
  * Project: https://github.com/mhschmieder/fxpdfexport
  */
 /**
- * This package contains JavaFX wrappers for working with pdftoolkit.
+ * This package contains JavaFX wrappers for working with jpdfexport.
  *
  * @version 1.0
  *

@@ -31,8 +31,8 @@
 package com.mhschmieder.fxpdfexport;
 
 import com.mhschmieder.fxgraphicstoolkit.image.ImageUtilities;
-import com.mhschmieder.pdftoolkit.PdfFonts;
-import com.mhschmieder.pdftoolkit.PdfTools;
+import com.mhschmieder.jpdfexport.PdfFonts;
+import com.mhschmieder.jpdfexport.PdfTools;
 import com.pdfjet.Image;
 import com.pdfjet.PDF;
 import com.pdfjet.Page;
