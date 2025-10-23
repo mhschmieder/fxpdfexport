@@ -30,7 +30,7 @@
  */
 package com.mhschmieder.fxpdfexport;
 
-import com.mhschmieder.fxgraphicstoolkit.image.ImageUtilities;
+import com.mhschmieder.fxgraphics.image.ImageUtilities;
 import com.mhschmieder.jpdfexport.PdfFonts;
 import com.mhschmieder.jpdfexport.PdfTools;
 import com.pdfjet.Image;
