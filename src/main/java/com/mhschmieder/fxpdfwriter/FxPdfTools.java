@@ -1,7 +1,7 @@
 /*
  * MIT License
  *
- * Copyright (c) 2020, 2025 Mark Schmieder
+ * Copyright (c) 2020, 2025, Mark Schmieder. All rights reserved.
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -21,18 +21,18 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  *
- * This file is part of the FxPdfExport Library
+ * This file is part of the fxpdfwriter Library
  *
- * You should have received a copy of the MIT License along with the
- * FxPdfExport Library. If not, see <https://opensource.org/licenses/MIT>.
+ * You should have received a copy of the MIT License along with the fxpdfwriter
+ * Library. If not, see <https://opensource.org/licenses/MIT>.
  *
- * Project: https://github.com/mhschmieder/fxpdfexport
+ * Project: https://github.com/mhschmieder/fxpdfwriter
  */
-package com.mhschmieder.fxpdfexport;
+package com.mhschmieder.fxpdfwriter;
 
 import com.mhschmieder.fxgraphics.image.ImageUtilities;
-import com.mhschmieder.jpdfexport.PdfFonts;
-import com.mhschmieder.jpdfexport.PdfTools;
+import com.mhschmieder.jpdfwriter.PdfFonts;
+import com.mhschmieder.jpdfwriter.PdfTools;
 import com.pdfjet.Image;
 import com.pdfjet.PDF;
 import com.pdfjet.Page;
@@ -49,12 +49,11 @@ public class FxPdfTools {
 
     public static Image getImageSnapshot( final PDF document, final Node node ) {
         // Get an AWT BufferedImage as a snapshot of the source node.
-        final BufferedImage bufferedImage = ImageUtilities.getBufferedImageSnapshot( node );
+        final BufferedImage bufferedImage = ImageUtilities
+                .getBufferedImageSnapshot( node );
 
         // Convert to a PdfJet Image.
-        final Image image = PdfTools.getImageSnapshot( document, bufferedImage );
-
-        return image;
+        return PdfTools.getImageSnapshot( document, bufferedImage );
     }
 
     public static double writeVisualization( final PDF document,
@@ -79,18 +78,18 @@ public class FxPdfTools {
         final BufferedImage chartLegendSnapshot = ImageUtilities
                 .getBufferedImageSnapshot( chartLegend );
 
-        final double metadataAdjustmentY = PdfTools.writeVisualization( document,
-                                                                        visualizationPage,
-                                                                        fonts,
-                                                                        chartLabel,
-                                                                        layoutWidth,
-                                                                        useChart1,
-                                                                        chart1Snapshot,
-                                                                        useChart2,
-                                                                        chart2Snapshot,
-                                                                        useLegend,
-                                                                        chartLegendSnapshot );
-
-        return metadataAdjustmentY;
+        // Write the visualization and return the metadata y-axis adjustment.
+        return PdfTools.writeVisualization(
+                document,
+                visualizationPage,
+                fonts,
+                chartLabel,
+                layoutWidth,
+                useChart1,
+                chart1Snapshot,
+                useChart2,
+                chart2Snapshot,
+                useLegend,
+                chartLegendSnapshot );
     }
 }

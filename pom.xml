@@ -6,13 +6,13 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.mhschmieder</groupId>
-	<artifactId>fxpdfexport</artifactId>
+	<artifactId>fxpdfwriter</artifactId>
 	<version>0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>fxpdfexport</name>
-	<url>https://github.com/mhschmieder/fxpdfexport</url>
-	<description>JavaFX wrapper for jpdfexport</description>
+	<name>fxpdfwriter</name>
+	<url>https://github.com/mhschmieder/fxpdfwriter</url>
+	<description>JavaFX wrapper for fxpdfwriter</description>
 
 	<licenses>
 		<license>
@@ -23,9 +23,9 @@
 	</licenses>
 
 	<scm>
-		<url>https://github.com/mhschmieder/fxpdfexport</url>
-		<connection>scm:git:git://github.com/mhschmieder/fxpdfexport.git</connection>
-		<developerConnection>scm:git:git@github.com:mhschmieder/fxpdfexport.git</developerConnection>
+		<url>https://github.com/mhschmieder/fxpdfwriter</url>
+		<connection>scm:git:git://github.com/mhschmieder/fxpdfwriter.git</connection>
+		<developerConnection>scm:git:git@github.com:mhschmieder/fxpdfwriter.git</developerConnection>
 	</scm>
 
 	<developers>
@@ -49,7 +49,7 @@
         </dependency>
         <dependency>
             <groupId>com.mhschmieder</groupId>
-            <artifactId>jpdfexport</artifactId>
+            <artifactId>jpdfwriter</artifactId>
             <version>0.1-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
