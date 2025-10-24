@@ -1,6 +1,6 @@
-# fxpdfexport
+# fxpdfreport
 
-JavaFX wrappers for using jpdfwriter and its dependency implementation references in PDFJet.
+JavaFX wrappers for using jpdreport and its dependency implementation references in PDFJet to produce custom formatted reports as PDF documents.
 
 NOTE: As jpdfexport itself is in flux and may shift to a different underlying third-party PDF writer soon, use this library with caution, but the plan is to make any lower level transition transparent to this library.
 
