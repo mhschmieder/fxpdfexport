@@ -21,18 +21,18 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  *
- * This file is part of the fxpdfwriter Library
+ * This file is part of the fxpdfexport Library
  *
  * You should have received a copy of the MIT License along with the
- * fxpdfwriter Library. If not, see <https://opensource.org/licenses/MIT>.
+ * fxpdfexport Library. If not, see <https://opensource.org/licenses/MIT>.
  *
- * Project: https://github.com/mhschmieder/fxpdfwriter
+ * Project: https://github.com/mhschmieder/fxpdfexport
  */
 /**
- * This package contains JavaFX wrappers for working with jpdfwriter.
+ * This package contains JavaFX wrappers for working with jpdfexport.
  *
  * @version 1.0
  *
  * @author Mark Schmieder
  */
-package com.mhschmieder.fxpdfwriter;
+package com.mhschmieder.fxpdfexport;
