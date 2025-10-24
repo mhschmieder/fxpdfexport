@@ -21,18 +21,18 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  *
- * This file is part of the fxpdfexport Library
+ * This file is part of the fxpdfreport Library
  *
  * You should have received a copy of the MIT License along with the
- * fxpdfexport Library. If not, see <https://opensource.org/licenses/MIT>.
+ * fxpdfreport Library. If not, see <https://opensource.org/licenses/MIT>.
  *
- * Project: https://github.com/mhschmieder/fxpdfexport
+ * Project: https://github.com/mhschmieder/fxpdfreport
  */
 /**
- * This package contains JavaFX wrappers for working with jpdfexport.
+ * This package contains JavaFX wrappers for working with jpdfreport.
  *
  * @version 1.0
  *
  * @author Mark Schmieder
  */
-package com.mhschmieder.fxpdfexport;
+package com.mhschmieder.fxpdfreport;

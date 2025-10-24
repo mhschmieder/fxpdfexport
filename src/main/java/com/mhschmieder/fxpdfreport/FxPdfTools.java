@@ -21,18 +21,18 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  *
- * This file is part of the fxpdfexport Library
+ * This file is part of the fxpdfreport Library
  *
- * You should have received a copy of the MIT License along with the fxpdfexport
+ * You should have received a copy of the MIT License along with the fxpdfreport
  * Library. If not, see <https://opensource.org/licenses/MIT>.
  *
- * Project: https://github.com/mhschmieder/fxpdfexport
+ * Project: https://github.com/mhschmieder/fxpdfreport
  */
-package com.mhschmieder.fxpdfexport;
+package com.mhschmieder.fxpdfreport;
 
 import com.mhschmieder.fxgraphics.image.ImageUtilities;
-import com.mhschmieder.jpdfexport.PdfFonts;
-import com.mhschmieder.jpdfexport.PdfTools;
+import com.mhschmieder.jpdfreport.PdfFonts;
+import com.mhschmieder.jpdfreport.PdfTools;
 import com.pdfjet.Image;
 import com.pdfjet.PDF;
 import com.pdfjet.Page;
